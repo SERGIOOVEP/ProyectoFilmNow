@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(252, 143, 0);
+}
+
+
+.login {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.inputLogin {
+    height: 60px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(255, 186, 96);
+    color: black;
+    border: solid 3px;
+    font-family: 'Carter One', cursive;
+}
+
+::placeholder {
+    color: black
+}
+
+a {
+    color: rgb(17, 26, 147);
+}
+
+.inputLogin:hover {
+    background-color: rgb(118, 110, 108);
+
+}
+
+.h1Login {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Carter One', cursive;
+    font-size: 100px;
+
+}
+
+.h3Login {
+    margin: 0 auto;
+    width: 750px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.pLogin {
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pInco {
+    text-align: center;
+    color: rgb(227, 0, 0);
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.sesionClosed {
+    text-align: center;
+    color: rgb(227, 0, 0);
+    margin-bottom: 15px;
+    font-size: 35px;
+}
